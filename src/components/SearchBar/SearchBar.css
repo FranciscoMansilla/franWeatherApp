@@ -1,0 +1,30 @@
+.inputSearchBar{
+  border-radius: 4px;
+  color:red;
+}
+
+.searchBox{
+  width: 20em;
+  border-radius: 1px;
+  background-color: white;
+  border: none;
+  outline-color: aliceblue;
+}
+.buttonS{
+  background-color: rgb(85, 95, 154);
+  border: none;
+  width: 4em;
+  height: 2em;
+  margin: 1px;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  
+}
+.buttonS:hover {
+  /* box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4); */
+  /* outline-color: rgba(49, 138, 172, 0); */
+  /* outline-offset: 80px; */
+  text-shadow: 1px 1px 3px #fff;
+  transform: scale(1.10);
+
+}

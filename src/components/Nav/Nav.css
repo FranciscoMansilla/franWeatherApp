@@ -1,0 +1,27 @@
+#logoHenry {
+  margin-right: 20px;
+}
+.divNav{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  /* padding: 5px;    */
+  background-color: rgb(69, 76, 118);
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+}
+.titleNav{
+  font-size: 45px ;
+  text-decoration-line: none;
+  color: aliceblue;
+}
+.imgLogo_{
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  filter: invert(100%);
+}
+.imgLogo_:hover{
+  transform: scale(1.04);
+  filter: invert(96%);
+}

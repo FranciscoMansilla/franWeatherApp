@@ -1,0 +1,25 @@
+.divTotal_{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.divCiudad_{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: white;
+  width: auto;
+  margin: 25px;
+  padding: 90px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+.buttonClose_{
+  background-color: aliceblue;
+  border: 1 solid black;
+  border-radius: 5px;
+  margin-top: 10px;
+}
