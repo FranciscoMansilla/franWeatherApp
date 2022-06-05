@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import axios from "axios";
 import './App.css';
 import Nav from '../components/Nav/Nav';
 import Cards from '../components/Cards/Cards';
@@ -16,9 +16,12 @@ function App() {
   }
   function onSearch(ciudad) {
     //Llamado a la API del clima
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=03375d4a97873dec9dd46d1bcc404ec6&units=metric`)
-      .then(r => r.json())
-      .then((recurso) => {
+    // fetch(`http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=03375d4a97873dec9dd46d1bcc404ec6&units=metric`)
+    //   .then(r => r.json())
+    //   .then((recurso) => {
+      axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=03375d4a97873dec9dd46d1bcc404ec6&units=metric`)
+      .then((respuesta) => {
+        let recurso = respuesta.data
         if(recurso.main !== undefined){
           const ciudad = {
             min: Math.round(recurso.main.temp_min),
