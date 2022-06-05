@@ -7,7 +7,7 @@ class Ciudad extends React.Component{
         return (
             <div className="divTotal_">
                 <div className="divCiudad_">
-                            {console.log(this.props)}
+                            {/* {console.log(this.props)} */}
                             <h2>{this.props.city.name}</h2>
                             <div className="info">
                             <img src={`http://openweathermap.org/img/wn/${this.props.city.img}@2x.png`} alt="icono clima" />

@@ -8,7 +8,6 @@ class Card extends React.Component{
     return (
       <div>
       <div className='divCard' >
-      {console.log(this.props)}
         <button className='closeButton' onClick={this.props.onClose} >x</button>
         <Link to={`/ciudad/${this.props.id}`} >
           <h3 className="card-title">{this.props.name}</h3>

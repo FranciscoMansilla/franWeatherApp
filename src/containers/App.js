@@ -4,7 +4,6 @@ import './App.css';
 import Nav from '../components/Nav/Nav';
 import Cards from '../components/Cards/Cards';
 import { Route } from 'react-router-dom';
-import About from '../components/About.jsx';
 import Ciudad from '../components/City/Ciudad';
 
 //const apiKey = '4ae2636d8dfbdc3044bede63951a019b'; // estoy usando mi propoa key
@@ -59,10 +58,6 @@ function App() {
       <Route
         exact path='/'
         render={() => <Cards cities={cities} onClose={onClose}/>}
-      />
-      <Route
-        path='/about'
-        component={About}
       /> 
       <Route
         exact path='/ciudad/:ciudadId'

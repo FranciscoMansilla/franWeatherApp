@@ -17,7 +17,7 @@ class Nav extends React.Component{
           <span className='titleNav'>⛅Weather App</span>
         </Link>
         <div>
-          <a href="#">
+          <a href="https://github.com/FranciscoMansilla/franWeatherApp.git">
             <img className='imgLogo_' src='https://cdn-icons-png.flaticon.com/512/25/25231.png' alt="" />
           </a>
           <a href="https://www.linkedin.com/in/francisco-mansilla-5a6667237/">
